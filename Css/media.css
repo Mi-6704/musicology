@@ -1,1 +1,14 @@
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 30px !important;
+    }
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+}
 
+@media (max-width 992px) {
+    .dance {
+      width: 100% !important;
+    }
+}

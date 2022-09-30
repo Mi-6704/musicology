@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-style{
+    background: #303030;
+    box-shadow: 0 10px 30px 0 rgba(3, 29, 54, 0.096);
+}
+.navbar-brand {
+    width: 80px;
+    height: 50px;
+}
+.navbar-nav li a {
+    text-transform: uppercase;
+    color: #fff !important;
+    position: relative;
+}
+.navbar-nav li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: #ff7230;
+    transition: all 0.3s linear;
+}
+.navbar-nav li a:hover:before{
+    width: 80%;
+}
+.navbar-nav li a:hover{
+    color: #e6875b !important;
+}
+/* Search-btn */
+#search-btn {
+    background-color: #e8631c;
+    border: 0px;
+}
+#search-btn:hover {
+    color: #303030;
+    background-color: #edfd0a;
+}
+.hero-part {
+    background: url(../image/Musicology.png) no-repeat center;
+    background-size: cover;
+    padding: 200px 0 20px;
+}
+
+.register-btn {
+    background: #e8631c;
+    border-radius: 5px;
+}
+.para {
+    font-size: 14px;
+}
+
+#about {
+    background-color: #e8631c;
+}
+.img-h {
+    height: 300px;
+}
+#pricing {
+    background-color: #333;
+}
+.card-body {
+    background-color: #333;
+}
+.pricing-card {
+    background-color: #e8631c;
+}.pricing-card .card-body  {
+    background-color: #e8631c;
+}
+.pricing-card img {
+    width: 30%;
+}
+
+.row-1 {
+    width: 100%;
+    float: left;
+}
+
+.image{
+    width: 50%;
+    float: left;
+}
+.dance {
+    width: 50%;
+    float: left;
+    background-color: #ff7230;
+    height: 245px;
+}
